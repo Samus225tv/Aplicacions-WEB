@@ -26,6 +26,44 @@
         </tr>
     </table>
 
+
+
+<h1>Hacer Formularios</h1>
+
+<!-- Para empezar el formulario empezar con la etiqueta <form> 
+    Para poner un input obligatorio agregarle el atributo "required"  -->
+<form action="chuletas.html" method="get">
+
+    <label for="nom">Nom:</label>
+    <input id="nom" type="text" required>
+
+    <label for="llinatges">Llinatges:</label>
+    <input id="llinatges" type="text" required>
+
+    <label for="radio-choice-1">Home:</label>
+    <input name=”option” type="radio" id="radio-choice-1" value="choice-1" />
+    <label for="radio-choice-2">Dona:</label>
+    <input name=”option” type="radio" id="radio-choice-2" value="choice-2" />
+    <label for="radio-choice-3">Altre:</label>
+    <input name=”option” type="radio" id="radio-choice-3" value="choice-3" />
+
+    <label for="email">Email:</label>
+    <input id="email" type="email" placeholder="El teu email" required>
+
+    <!-- Para poner un número mínimo y máximo de caracteres en una contraseña utilizar los atributos: "minlength" y "maxlength" -->
+    <label for="contrasenya">Contrasenya:</label>
+    <input id="contrasenya" type="password" required minlength="5" maxlength="10">
+
+    <label for="datanaixament">Data de Naixament:</label>
+    <input id="datanaixement" type="date" required>
+
+    <label for="condicions">Estic d'acord amb els termes i condicions</label>
+    <input id="condicions" type="checkbox" required>
+
+    <button>Enviar</button>
+</form>
+
+
 <!-- Diferentes Encabezados desde h1 hasta h6 (h7 no existe)-->
 <h1>Encabezado 1</h1>
 <h2>Encabezado 2</h2>
