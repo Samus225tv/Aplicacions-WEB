@@ -1,0 +1,53 @@
+.horari {
+    border-color: #000000;
+    background-color: cornflowerblue;
+    color: #000000;
+}
+
+.hora {
+    border-color: #000000;
+    background-color: #01ffff;
+    color:#000000
+}
+
+.dia {
+    border-color: #000000;
+    background-color: #fcf813;
+    color: #000000;
+}
+
+.sistemes {
+    border-color: #000000;
+    background-color: #3f4e35;
+    color: #ffffff;
+}
+
+.aplicacions {
+    border-color: #000000;
+    background-color: #00e000;
+    color: #000000;
+}
+
+.eie {
+    border-color: #000000;
+    background-color: #c73acc;
+    color: #ffffff;
+}
+
+.seguretat {
+    border-color: #000000;
+    background-color: #ec1b95;
+    color: #ffffff;
+}
+
+.serveis {
+    border-color: #000000;
+    background-color: #c48511;
+    color: #ffffff;
+}
+
+.pati {
+    border-color: #000000;
+    background-color: #686604;
+    color: #ffffff;
+}
