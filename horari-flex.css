@@ -3,42 +3,52 @@ body {
 
 }
 
-.flex-container {
+.contenedor-pare{
     border: 1px solid #000;
-    background-color: #ccc;
-    padding: 20px;
+    background-color: #e42525;
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
-    width: 80%;;
-    margin: 0 auto;
+    width: 800px;
+}
+
+.fila {
+    flex-flow: row wrap;
+    justify-content: left;
+
+}
+
+.horari {
+    border: 1px solid #000;
+    padding: 20px;
+    background-color: bisque;
+}
+
+.dies-setmana {
+    flex: 5;
+    border: 1px solid #000;
+    padding: 10px;
+    background-color: rgb(250, 146, 18);
+ 
 }
 
 .dia {
-    border: 1px solid #ccc;
-    background-color: #fff;
-    color: #000;
-    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid #000;
+    background-color: #01ffff;
     font-weight: bold;
     flex-flow: row wrap;
-    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
 }
+
+
 
 .hora {
     border: 1px solid #000;
     padding: 5px;
     background-color: #01ffff;
     font-weight: bold;
-    margin: 0;
-    order: 1;
-}
-
-.classe {
-    border: 1px solid #000;
-    padding: 5px;
-    background-color: #01ffff;
-    font-weight: bold;
-    flex-flow: row wrap;
     margin: 0;
     order: 1;
 }
