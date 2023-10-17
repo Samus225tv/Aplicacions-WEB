@@ -14,20 +14,16 @@ body {
 
 .fila-titol {
     flex: 2;
-    border: 5px solid #000;
     flex-flow: row wrap;
     justify-content: left;
     display: flex;
-    padding: 10px;
 }
 
 .fila {
-    border: 5px solid #000;
     flex-flow: row wrap;
     justify-content: left;
     display: flex;
     flex: auto;
-    padding: 10px;
 }
 
 
@@ -36,9 +32,13 @@ body {
     border: 1px solid #000;
     padding: 10px;
     background-color: bisque;
-    height: 100%;
-    width: 100%;
 }
+
+.vacio-horari {
+    flex: 5;
+    flex-flow: row wrap;
+}
+
 
 .dies-setmana {
     flex: 5;
