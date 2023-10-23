@@ -5,13 +5,8 @@ body {
 .contenedor-pare {
     display: flex;
     border: 1px solid #000;
-    background-color: #e42525;
     flex-flow: column wrap;
-    min-height: 400px;
-    max-width: 1200px;
 }
-
-
 
 .fila-titol {
     flex-flow: row wrap;
@@ -26,7 +21,6 @@ body {
     flex: auto;
 }
 
-
 .horari {
     flex: 1;
     border: 1px solid #000;
@@ -35,10 +29,9 @@ body {
 }
 
 .vacio-horari {
-    flex: 5;
+    flex: 6;
     flex-flow: row wrap;
 }
-
 
 .dies-setmana {
     border: 1px solid #000;
@@ -51,22 +44,86 @@ body {
     flex-flow: row;
 }
 
-.dia {
+.dias-titulo {
     flex: auto;
     border: 1px solid #000;
     background-color: #e6ff01;
     padding: 10px;
     height: auto;
 }
+ 
+.dias {
+    display: flex;
+    flex-flow: row wrap;
+}
 
 .hora {
     flex: 1;
     border: 1px solid #000;
-    padding: 5px;
+    text-align: center;
     background-color: #01ffff;
-    font-weight: bold;
+    margin: 0 auto;
+    height: 24px;
 }
 
+.hora-aball {
+    border: 1px solid #000;
+    background-color: #01ffff;
+    margin: 7px auto;
+    height: 24px;
+}
+
+.doble {
+    flex: 1;
+    border: 1px solid #000;
+    text-align-last: center;
+    height: 50px;
+}
+
+.individual {
+    flex: 1;
+    border: 1px solid #000;
+    margin: 6px 1px;
+    height: 25px; 
+}
+
+.pati {
+    flex: 5;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 1px 1px;
+    height: 24px;
+}
+
+.sistemes {
+    background-color: #3f4e35;
+    color: #ffffff;
+}
+
+.aplicacions {
+    background-color: #00e000;
+    color: #000000;
+}
+
+.eie {
+    background-color: #c73acc;
+    color: #ffffff;
+}
+
+.seguretat {
+    background-color: #ec1b95;
+    color: #ffffff;
+}
+
+.serveis {
+    background-color: #c48511;
+    color: #ffffff;
+}
+
+.pati {
+    background-color: #686604;
+    color: #ffffff;
+}
 
 @media (max-width: 400px) {
 
